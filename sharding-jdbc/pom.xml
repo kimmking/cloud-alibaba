@@ -29,11 +29,11 @@
         </dependency>
 
         <!-- when i delete this dependency ,it works-->
-<!--        <dependency>-->
-<!--            <groupId>org.apache.shardingsphere</groupId>-->
-<!--            <artifactId>sharding-jdbc-orchestration-spring-boot-starter</artifactId>-->
-<!--            <version>${sharding-sphere.version}</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.apache.shardingsphere</groupId>
+            <artifactId>sharding-jdbc-orchestration-spring-boot-starter</artifactId>
+            <version>${sharding-sphere.version}</version>
+        </dependency>
 
         <!--若使用zookeeper, 请加入下面Maven坐标-->
         <dependency>
